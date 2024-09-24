@@ -1,0 +1,63 @@
+/* SELECTOR */
+/* element: chikd, aibling, adjacent sibling, all siblings, direct, pseudo-element */
+/* class: pseudo-class */
+/* id */
+
+/* Child element: direct- all element is 001 */
+body > h1{
+    /* color: green;
+    color: violet; */
+}
+
+/* element: 001 */
+h1{
+    /* color: red; */
+}
+
+/* all children selector */
+body p{
+    color: violet;
+}
+
+/* direct child(ren) selector */
+body > div > p{
+    color: blue;
+}
+
+/* all sibling selector */
+h1 ~ p{
+    color: orange;
+}
+p ~ p{
+    color: orange;
+}
+
+/* adjacent sibling selector */
+h1 + p{
+    color: cyan;
+}
+p + p + p{
+    color: purple;
+}
+
+/* any element selector */
+*{
+    /* border: 2px solid red; */
+    font-weight: normal;
+    margin: 0;
+    text-decoration: none;
+    padding: 0;
+    color: inherit;
+}
+
+/* pseudo element */
+p::selector{
+    color: black;
+}
+
+h2::first-letter, h1::first-letter{
+    color: brown;
+    color: rgb(174, 45, 97);
+    
+}
+

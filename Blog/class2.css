@@ -1,0 +1,37 @@
+/* class selector */
+.one{
+    background-color: aqua;
+}
+
+.two{
+    background-color: fuchsia;
+}
+
+p{
+    background-color: gray;
+}
+
+p.one{
+    background-color: orange;
+}
+
+ol li.one{
+    background-color: palegreen;
+}
+
+.one.two{
+    background-color: blue;
+}
+
+/* pseudo class */
+li:first-of-type, li:last-of-type{
+    border: 20px solid crimson;
+}
+
+li:nth-of-type(2n+1){
+    border: 20px dashed moccasin
+}
+
+li:nth-of-type(2n+4){
+    border: 20px dashed green
+}

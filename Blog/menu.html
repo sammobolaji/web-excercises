@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        table tr{
+            border: 20px solid blue;
+        }
+        table th, table td{
+            text-align: center;
+            border-inline: 10px solid yellow;
+            padding-block: 25px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>last quarter food menu</title>
+</head>
+<body>
+    <table>
+        <caption>last quarter food menu</caption>
+        <thead>
+            <tr>
+                <th scope="col scope=">Days</th>
+                <th scope="col scope">breakfast</th>
+                <th scope="col scope">lunch</th>
+                <th scope="col scope">dinner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Monday</th>
+                <td rowspan="2">v</td>
+                <td>v</td>
+                <td>v</td>
+            </tr>
+            <tr>
+                <th scope="row">Tuesday</th>
+                <!-- <td>a</td> -->
+                <td>a</td scope="row">
+                <td>a</td>
+            </tr>
+            <tr>
+                <th scope="row">Wednesday</th>
+                <td>c</td>
+                <td>c</td>
+                <td>c</td>
+            </tr>
+            <tr>
+                <th scope="row">Thursday</th>
+                <td>f</td>
+                <td>f</td>
+                <td>f</td>
+            </tr>
+            <tr>
+                <th scope="row">Friday</th>
+                <td colspan="3">e</td>
+                <td>e</td>
+                <td>e</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">eat responsble food no dey finish</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
